@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+#Move certain files into a new directory
+for file in files/*.py
+do  
+    if grep -q 'Feature' $file ; then
+        mv $file new_directory/
+    fi
+done
