@@ -1,4 +1,4 @@
-!#/usr/bin/bash
+#!/usr/bin/bash
 
 # Create a function with a local base variable
 function sum_array () {
