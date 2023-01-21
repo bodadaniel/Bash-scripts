@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+#move or remove file from directory based on condition 
+for file in directory/*
+do
+    case $(cat $file) in
+      *Apple*|*Orange*|*Kiwi*)
+      mv $file sub_directory1/ ;;
+      *Banana*|*Grape*)
+      rm $file ;;
+      *) 
+      echo "Unknown in $file" ;;
+    esac
+done
+
