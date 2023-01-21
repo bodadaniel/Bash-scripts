@@ -7,3 +7,7 @@ crontab -e
 
 #verify it
 crontab -l
+
+#Useful pages:
+https://crontab.guru/
+https://wiki.gentoo.org/wiki/Nano/Guide
