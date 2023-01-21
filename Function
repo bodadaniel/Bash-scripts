@@ -8,4 +8,4 @@ function get_number_type () {
 }
 
 # Call the function with specified argument
-get_number_type "XXX"
+get_number_type "XYZ"
