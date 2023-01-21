@@ -4,3 +4,11 @@ sudo apt-get install -y bc
 
 nano arguments.sh
 
+#!/bin/usr/bash
+
+par_f=$1
+temp_c=$(echo "scale=2;($par_f - 32) * 5 / 9" | bc)
+echo "$par_f farenheit in celsius equals $temp_c"
+
+
+
