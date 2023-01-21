@@ -1,0 +1,6 @@
+# if bc is not intalled
+sudo apt-get update -y
+sudo apt-get install -y bc
+
+nano arguments.sh
+
