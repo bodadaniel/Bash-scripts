@@ -1,0 +1,11 @@
+#!usr/bin/bash
+
+function get_number_type () {
+
+  # Filter aggregate results by argument
+  win_stats=$(cat file.csv | cut -d "," -f2 | egrep -v 'Type'| sort | uniq -c | egrep "$1")
+
+}
+
+# Call the function with specified argument
+get_number_type "XXX"
