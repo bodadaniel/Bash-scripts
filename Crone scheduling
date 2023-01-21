@@ -1,0 +1,9 @@
+#check tasks
+crontab -l
+
+#setup one with nano
+crontab -e
+30 2 * * * bash extract_data.sh
+
+#verify it
+crontab -l
