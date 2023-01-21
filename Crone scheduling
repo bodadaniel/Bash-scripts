@@ -3,7 +3,7 @@ crontab -l
 
 #setup one with nano
 crontab -e
-30 2 * * * bash extract_data.sh
+30 2 * * * bash example.sh
 
 #verify it
 crontab -l
