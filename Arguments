@@ -2,8 +2,10 @@
 sudo apt-get update -y
 sudo apt-get install -y bc
 
+#create file
 nano arguments.sh
 
+#calculate celsius from farenheit
 #!/bin/usr/bash
 
 par_f=$1
